@@ -18,7 +18,8 @@ input.labelauty + label ::-moz-selection {
 
 /* Hide original checkboxes. They are ugly! */
 input.labelauty {
-  display: none !important; }
+  display: none !important;
+ }
 
 /*
  * Let's style the input
@@ -696,7 +697,7 @@ button,
   flex-shrink: 0; }
 
 .card-content {
-  padding: 0 10px;
+  padding: 0 40px;
   -webkit-box-flex: 3;
   -ms-flex-positive: 3;
   flex-grow: 3; }
@@ -715,7 +716,7 @@ button,
 .title {
   color: #ffffff;
   background: #00F;
-  padding: 0.8rem 1.25rem; }
+  padding: 1rem 1.25rem; }
 
 #title {
   margin-bottom: 10px; }
@@ -1076,7 +1077,7 @@ input.labelauty + label > span.labelauty-checked-image {
   margin-right: 16px; }
 
 #header a {
-  color: #2d70dc;
+  color: #0b0b0b;
   font-size: 0.8em;
   margin-right: 16px; }
 
@@ -1785,7 +1786,7 @@ body,
     display: flex;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 50px;
+    width: 60px;
     padding: 0; }
   .title {
     /* Border is the new background */
@@ -1794,7 +1795,7 @@ body,
       /* Abs positioning makes it not take up vert space  */
       position: absolute;
       bottom: -10px;
-      left: 3px; }
+      left: 15px; }
       .title span:not(.span--iconTitle) {
         /* Rotate from top left corner (not default) */
         -webkit-transform-origin: 0 0;
